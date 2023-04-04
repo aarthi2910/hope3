@@ -727,18 +727,18 @@
                                         <div class="border">
                                             <label>Collage Name <span style="color:red">*</span></label>
                                             <div id="myDropdown10" class="dropdown-content">
-                                                <input type="text" class="scl10 form-control inputborder" name="collage_name" placeholder="Search collage.." id="collage_name" >       
+                                                <input type="text" class=" form-control inputborder" name="collage_name" placeholder="Search collage.." id="collage_name" >       
                                             </div>
                                             <span id="error_collage_name" class="text-danger"></span>
                                         </div><br>
                                         <div class="border">
-                                            <label>10th School Location</label>
-                                            <input type="text" name="scl_address10" id="scl_address10" class="form-control inputborder" />
+                                            <label>Collage Location</label>
+                                            <input type="text" name="clg_address" id="clg_address" class="form-control inputborder" />
                                            
                                         </div><br>                                     
                                         <div class="border">
-                                            <label for="district">District where you studied 10th standard <span style="color:red">*</span></label>
-                                            <select id="scl10city" name="scl10city" class="form-control inputborder">
+                                            <label for="district">District where you studied Collage <span style="color:red">*</span></label>
+                                            <select id="clg_city" name="clg_city" class="form-control inputborder">
                                                 <option>Choose</option>
                                                 <option>Ariyalur</option>
                                                 <option>Chengalpet</option>
@@ -778,32 +778,32 @@
                                                 <option>Viluppuram</option>
                                                 <option>Virudhunagar</option>
                                             </select>
-                                            <span id="error_scl10city" class="text-danger"></span>
+                                            <span id="error_clg_city" class="text-danger"></span>
                                         </div><br>
                                         <div class="border">
-                                            <label for="scl_regiontype10">School Region type<span style="color:red">*</span></label>
-                                            <select id="scl_regiontype10" name="scl_regiontype10" class="form-control inputborder">
+                                            <label for="clg_regiontype">Collage Region type<span style="color:red">*</span></label>
+                                            <select id="clg_regiontype" name="clg_regiontype" class="form-control inputborder">
                                                 <option>Choose</option>
                                                 <option>Village</option>
                                                 <option>Town</option>
                                                 <option>City</option>
                                             </select>
-                                            <span id="error_scl_regiontype10" class="text-danger"></span>
+                                            <span id="error_clg_regiontype" class="text-danger"></span>
                                         </div><br>
                                         <div class="border">
-                                            <label>10th standard school type <span style="color:red">*</span></label><br>
+                                            <label>Collage school type <span style="color:red">*</span></label><br>
                                             <div style="margin-left: 20px">
-                                                <input type="radio" id="govt_scl" name="scl_type_10" value="Government School" checked>
+                                                <input type="radio" id="govt_scl" name="clg_type" value="Government School" checked>
                                                 <label style="font-weight: normal">Government School</label><br>
-                                                <input type="radio" id="govt_aided_scl" name="scl_type_10" value="Government Aided School">
+                                                <input type="radio" id="govt_aided_scl" name="clg_type" value="Government Aided School">
                                                 <label style="font-weight: normal">Government Aided School</label><br>
-                                                <input type="radio" id="private_scl" name="scl_type_10" value="Private School">
+                                                <input type="radio" id="private_scl" name="clg_type" value="Private School">
                                                 <label style="font-weight: normal">Private School</label>
                                             </div>
                                         </div><br>
                                         <div class="border">
-                                            <label for="year_10">Year passed 10th Standard <span style="color:red">*</span></label>
-                                            <select id="year_10" name="year_10" class="form-control inputborder">
+                                            <label for="year_clg">Year passed Collage <span style="color:red">*</span></label>
+                                            <select id="year_clg" name="year_clg" class="form-control inputborder">
                                                 <option>Option</option>
                                                 <option>2022</option>
                                                 <option>2021</option>
@@ -811,12 +811,12 @@
                                                 <option>2019</option>
                                                 <option>2018</option>
                                             </select>
-                                            <span id="error_year_10" class="text-danger"></span>
+                                            <span id="error_year_clg" class="text-danger"></span>
                                         </div><br>
                                         <div class="border">
-                                            <label>10th Total Marks <span style="color:red">*</span></label>
-                                            <input type="text" name="mark_tot_10" id="mark_tot_10" class="form-control inputborder" />
-                                            <span id="error_mark_tot_10" class="text-danger"></span>
+                                            <label>Collage Percentage<span style="color:red">*</span></label>
+                                            <input type="text" name="clg_percentage" id="clg_percentage" class="form-control inputborder" />
+                                            <span id="error_clg_percentage" class="text-danger"></span>
                                         </div><br>
                                         <div align="center">
                                             <button type="button" name="diploma_details_previous" id="deploma_details_previous" class="btn btn-default btn-lg">Previous</button>
