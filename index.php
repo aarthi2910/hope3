@@ -221,7 +221,7 @@
                                     </div>
                                     <div class="panel-body">
                                         <div class="border">
-                                            <label>Name <span style="color:red">*</span></label>
+                                            <label>Name_name <span style="color:red">*</span></label>
                                             <input type="text" name="fname" id="fname" class="form-control inputborder" />
                                             <span id="error_fname" class="text-danger"></span>
                                         </div><br>
